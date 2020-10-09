@@ -4,29 +4,64 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
 
 		<link rel="stylesheet" href="css/style.css">
 
-		<title>Dashboard</title>
+		<title>Quiz App</title>
 	</head>
 	<body>	
 		<div class="container">						
-			<header class="waves">
-				<h1 class="waves__heading heading-1">Dashboard</h1>
-				<svg viewBox="0 0 500 150" preserveAspectRatio="none">	
-					<path d="M0.00,127.78 C173.81,209.70 228.55,0.50 501.12,139.63 L500.00,0.00 L0.00,0.00 Z">
-					</path>
-				</svg>				
+			<header class="header">
+				<h1 class="header_content heading-1">Questions</h1>
+											
 			</header>
 
+			<main>
+				<div class="question">
+					<div class="question__content">
+						<img src="/img/html.png" alt="" class="question__content--image">
+						<h2 class="question__content--title heading-2">Can you tell us what is the name of this HTML-Tag?</h2>					
+					</div>
+					<!--Answer A-->
+					<div class="answer">
+						<div class="answer__content">
+							<h3 class="answer__content--title heading-3">A</h3>
+							<h3 class="answer__content--text heading-3">H9</h3>
+						</div>
+					</div>
+					<!--Answer B-->	
+					<div class="answer">
+						<div class="answer__content">
+							<h3 class="answer__content--title heading-3">A</h3>
+							<h3 class="answer__content--text heading-3">H9</h3>
+						</div>
+					</div>
+					<!--Answer C-->	
+					<div class="answer">
+						<div class="answer__content">
+							<h3 class="answer__content--title heading-3">A</h3>
+							<h3 class="answer__content--text heading-3">H9</h3>
+						</div>
+					</div>
+					<!--Answer D-->
+					<div class="answer">
+						<div class="answer__content">
+							<h3 class="answer__content--title heading-3">A</h3>
+							<h3 class="answer__content--text heading-3">H9</h3>
+						</div>
+					</div>
+
+				</div>								
+			</main>
 
 			<footer class="nav">
-				<a href="/index.html"><img src="/img/dashboardIcon.png" alt="" class="nav__image"></a>
-				<a href="/code_buddy.html"><img  src="/img/buddyicon.png" alt="" class="nav__image"></a>
-				<a href="/teams.html"><img src="/img/teamicon.png" alt="" class="nav__image"></a>
-				<a href="/energy.html"><img src="/img/energyicon.png" alt="" class="nav__image"></a>
-				<a href="/journal.html"><img src="/img/journalicon.png" alt="" class="nav__image"></a>
+				<div class="nav-bar">
+					<a href="/"><img src="/img/home.png" alt="" class="nav__image"></a>
+					<a href="/"><img src="/img/bookmark.png" alt="" class="nav__image"></a>
+					<a href="/"><img src="/img/create_question.png" alt="" class="nav__image"></a>
+					<a href="/"><img src="/img/avatar.png" alt="" class="nav__image"></a>
+				</div>								
 			</footer>
 		</div>
 	</body>
