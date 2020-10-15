@@ -8,26 +8,14 @@
   box-sizing: border-box; }
 
 html {
-  font-size: 62.5%;
-  background-color: grey; }
+  font-size: 62.5%; }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: #253237; }
-
-.container {
-  max-width: 90rem;
-  margin: 8rem auto;
-  background-color: #FFFFFF;
-  box-shadow: 0px 2rem 6rem rgba(25, 50, 81, 0.203238);
-  min-height: 100vh; }
-  @media only screen and (max-width: 75em) {
-    .container {
-      margin: 0;
-      max-width: 100%;
-      width: 100%; } }
+  color: #253237;
+  background-color: #FFFFFF; }
 
 .heading-1 {
   font-size: 3rem;
