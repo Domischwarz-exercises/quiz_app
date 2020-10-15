@@ -1,5 +1,5 @@
 .heading-1 {
-  font-size: $primaryfont20;
+  font-size: $primaryfont;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
@@ -16,5 +16,9 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   letter-spacing: 0.005em;
+}
+
+p {
+  font-size: $thirdfont14;
 }
 

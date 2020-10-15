@@ -5,10 +5,14 @@
 @import "base/typography";
 
 @import "components/button";
+@import "components/flip-card";
 @import "components/navigation";
 
 
 @import "layout/header";
 
 
+@import "pages/bookmarks";
+@import "pages/create";
 @import "pages/home";
+@import "pages/profile";

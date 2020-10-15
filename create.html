@@ -7,35 +7,34 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
 
 		<link rel="stylesheet" href="css/style.css">
-		<script src="/index.js" defer></script>
 
-		<title>Quiz App - Questions</title>
+		<title>Quiz App - Create</title>
 	</head>
-	<body>			
-		<div class="container">						
-			<!--Title-->
+	<body>	
+		<div class="container">
+			<!--Title-->						
 			<header class="header">
-				<h1 class="header_content heading-1">Questions</h1>										
+				<h1 class="header_content heading-1">Create</h1>											
 			</header>
 
-			<main>			
-				<div class="question">
-					<!--Bookmarked Questions-->
-					<class class="question__content">
-						<div class="question__content--front">
-							<img src="/img/html.svg" alt="" class="question__content--image">
-							<h2>Can you tell us what is the name of this HTML-Tag?</h2>
-						</div>
-						<div class="question__content--back">
-							<p>Good tools make application development quicker</p>
-							<div class="question__content--tags">
-								<span class="tag">HTML</span>
-								<span class="tag">CSS</span>
-								<span class="tag">JS</span>
-							</div>						
-						</div>
-					</class>					
+			<main>
+				<div class="create">
+					<div class="create__content">
+						<h2 class="create__content--title heading-2">Add Question</h2>
+						<textarea class="create__content--textfield"></textarea>
+
+						<h2 class="create__content--title heading-2">Add answer</h2>
+						<textarea class="create__content--textfield"></textarea>
+						<h2 class="create__content--title heading-2">Add tags</h2>
+						<textarea class="create__content--textfield" placeholder="add tags divided by comma"></textarea>
+					</div>					
+
+					<button class="btn">
+						<span class="btn__visible">Create</span>
+						<span class="btn__invisible">Done</span>                                
+					</button>
 				</div>
+				
 			</main>
 			<!--Footer Navigation-->
 			<footer class="nav">

@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    justify-content: center;
+
+    .create {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__content {
+            margin-bottom: 5rem;
+            
+            &--title {
+                margin-bottom: 1rem;
+            }
+
+            &--textfield {
+                width: 90vw;
+                height: 10vh;
+                margin-bottom: 2rem;
+
+                &:focus {
+                    outline: 1px solid rgba(25, 50, 81, 0.203238);
+                }
+            }
+        }
+    }
+}

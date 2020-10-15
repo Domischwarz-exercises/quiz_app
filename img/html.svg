@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="155px" height="179px" viewBox="0 0 155 179" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>HTML</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.70167593%" x2="50%" y2="106.495009%" id="linearGradient-1">
+            <stop stop-color="#FFF33B" offset="0%"></stop>
+            <stop stop-color="#FEE72E" offset="1.4%"></stop>
+            <stop stop-color="#FED51B" offset="4.2%"></stop>
+            <stop stop-color="#FDCA10" offset="7%"></stop>
+            <stop stop-color="#FDC70C" offset="10%"></stop>
+            <stop stop-color="#F3903F" offset="40%"></stop>
+            <stop stop-color="#ED683C" offset="80%"></stop>
+            <stop stop-color="#E93E3A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-110.000000, -11.000000)">
+            <g id="HTML" transform="translate(110.000000, 11.000000)">
+                <path d="M154.973173,26.85 C154.980128,26.0627315 154.675924,25.3044676 154.126635,24.7407833 L130.280481,0.874116667 C129.719599,0.320708333 128.960497,0.0155796296 128.173077,0.02685 L128.173077,0 L14.9038462,0 C6.67675748,0.00994444444 0.00993589744,6.68250093 0,14.9166667 L0,164.083333 C0.00993589744,172.317499 6.67675748,178.990056 14.9038462,179 L140.096154,179 C148.323243,178.990056 154.990064,172.317499 155,164.083333 L154.973173,26.85 Z M131.153846,10.1851 L144.823654,23.8666667 L131.153846,23.8666667 L131.153846,10.1851 Z M14.9038462,5.96666667 L125.192308,5.96666667 L125.192308,26.85 C125.192308,28.4976287 126.526864,29.8333333 128.173077,29.8333333 L149.038462,29.8333333 L149.038462,89.5 L5.96153846,89.5 L5.96153846,14.9166667 C5.96153846,9.97378056 9.96520833,5.96666667 14.9038462,5.96666667 Z M149.038462,155.133333 L5.96153846,155.133333 L5.96153846,95.4666667 L149.038462,95.4666667 L149.038462,155.133333 Z M140.096154,173.033333 L14.9038462,173.033333 C9.96520833,173.033333 5.96153846,169.026219 5.96153846,164.083333 L5.96153846,161.1 L149.038462,161.1 L149.038462,164.083333 C149.038462,169.026219 145.034792,173.033333 140.096154,173.033333 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <text font-family="HiraMaruProN-W4, Hiragino Maru Gothic ProN" font-size="45" font-weight="normal" fill="#151515">
+                    <tspan x="9" y="143">HTML</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
