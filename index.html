@@ -11,18 +11,17 @@
 
 		<title>Quiz App - Questions</title>
 	</head>
-	<body>			
-		<!-- <div class="container">		 -->				
-			<!--Title-->
-			<header class="header">
-				<h1 class="header_content heading-1">Questions</h1>										
+	<body>						
+			<!-- HOME -->
+			<!-- TITLE -->
+			<header class="header header-home">
+				<h1 class="header_content heading-1">Questions</h1>
 			</header>
-
-			<main>			
+			<main class="js-home">			
 				<div class="question">
-					<!--Bookmarked Questions-->
+					<!-- Questions -->
 					<div class="question__content">
-						<div class="question__content--front">
+						<div class="question__content--front" >
 							<img src="/img/html.svg" alt="" class="question__content--image">
 							<h2>Can you tell us what is the name of this HTML-Tag?</h2>
 						</div>
@@ -35,10 +34,9 @@
 							</div>						
 						</div>
 					</div>
-
-					<!--Bookmarked Questions-->
+					<!-- Questions -->
 					<div class="question__content">
-						<div class="question__content--front">
+						<div class="question__content--front" >
 							<img src="/img/html.svg" alt="" class="question__content--image">
 							<h2>Can you tell us what is the name of this HTML-Tag?</h2>
 						</div>
@@ -51,18 +49,94 @@
 							</div>						
 						</div>
 					</div>
-
 				</div>
 			</main>
-			<!--Footer Navigation-->
+
+			<!-- BOOKMARKS -->
+			<!-- TITLE -->
+			<header class="header header-bookmarks hidden">
+				<h1 class="header_content heading-1">Bookmarks</h1>										
+			</header>
+			<main class="js-bookmarks hidden">			
+				<div class="question">
+					<!-- Question bookmarked -->
+					<div class="question__content">
+						<div class="question__content--front" >
+							<img src="/img/html.svg" alt="" class="question__content--image">
+							<h2>Can you tell us what is the name of this HTML-Tag?</h2>
+						</div>
+						<div class="question__content--back">
+							<p>Good tools make application development quicker</p>
+							<div class="question__content--tags">
+								<span class="tag">HTML</span>
+								<span class="tag">CSS</span>
+								<span class="tag">JS</span>
+							</div>						
+						</div>
+					</div>
+					<!-- Question bookmarked -->
+					<div class="question__content">
+						<div class="question__content--front" >
+							<img src="/img/html.svg" alt="" class="question__content--image">
+							<h2>Can you tell us what is the name of this HTML-Tag?</h2>
+						</div>
+						<div class="question__content--back">
+							<p>Good tools make application development quicker</p>
+							<div class="question__content--tags">
+								<span class="tag">HTML</span>
+								<span class="tag">CSS</span>
+								<span class="tag">JS</span>
+							</div>						
+						</div>
+					</div>
+				</div>
+			</main>
+
+			<!-- CREATE -->
+			<!-- Title -->						
+			<header class="header header-create hidden">
+				<h1 class="header_content heading-1">Create</h1>											
+			</header>
+			<main class="js-create hidden">
+				<div class="create">
+					<div class="create__content">
+						<h2 class="create__content--title heading-2">Add Question</h2>
+						<textarea class="create__content--textfield"></textarea>
+
+						<h2 class="create__content--title heading-2">Add answer</h2>
+						<textarea class="create__content--textfield"></textarea>
+						<h2 class="create__content--title heading-2">Add tags</h2>
+						<textarea class="create__content--textfield" placeholder="add tags divided by comma"></textarea>
+					</div>					
+					<button class="btn">
+						<span class="btn__visible">Create</span>
+						<span class="btn__invisible">Done</span>                                
+					</button>
+				</div>
+			</main>
+
+			<!-- PROFILE -->
+			<!-- Title -->						
+			<header class="header header-profile hidden">
+				<h1 class="header_content heading-1">Profile</h1>										
+			</header>
+			<main class="js-profile hidden">			
+				<button class="btn">
+					<span class="btn__visible">Logout</span>
+					<span class="btn__invisible">Login</span>                                
+				</button>
+			</main>
+
+
+			<!-- Footer Navigation -->
 			<footer class="nav">
 				<div class="nav-bar">
-					<a href="/"><img src="/img/home.png" alt="" class="nav__image"></a>
-					<a href="/bookmark.html"><img src="/img/bookmark.png" alt="" class="nav__image"></a>
-					<a href="/create.html"><img src="/img/create_question.png" alt="" class="nav__image"></a>
-					<a href="/profile.html"><img src="/img/avatar.png" alt="" class="nav__image"></a>
+					<a class="home-btn"><img src="/img/home.png" class="nav__image"></a>
+					<a class="bookmarks-btn"><img src="/img/bookmark.png" class="nav__image"></a>
+					<a class="create-btn"><img src="/img/create_question.png"class="nav__image"></a>
+					<a class="profile-btn"><img src="/img/avatar.png" class="nav__image"></a>
 				</div>								
 			</footer>
-		<!-- </div> -->
+		
 	</body>
 </html>
